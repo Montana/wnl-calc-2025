@@ -11,16 +11,37 @@ def custom_score_for_job(answer):
     else:
         score, weight = randint(10, 20), 1
     if "freelance" in answer.lower():
-        score *= 0.8  # Freelancers get a slight reduction due to perceived instability
+        score *= 0.8 
     return score, weight
 
 def calculate_base_score(answers):
-    base_score = sum([randint(5, 15) for _ in answers])  # Simple base score from initial answers
-    compatibility_score = randint(10, 30)  # Simulate compatibility calculation
-    life_goals_alignment = randint(5, 20)  # Simulate alignment with life goals
-    social_skills_evaluation = randint(-5, 15)  # Simulate social skills evaluation
-    stress_management = randint(-10, 10)  # Simulate stress management capability
+    base_score = sum([randint(5, 15) for _ in answers])  
+    compatibility_score = randint(10, 30)  
+    life_goals_alignment = randint(5, 20)  
+    social_skills_evaluation = randint(-5, 15)  
+    stress_management = randint(-10, 10) 
     return base_score + compatibility_score + life_goals_alignment + social_skills_evaluation + stress_management
+
+def feedback_based_on_shoes(answer):
+    if "sneakers" in answer.lower():
+        print("Sneakers suggest a relaxed, versatile lifestyle.")
+    elif "dress shoes" in answer.lower():
+        print("Dress shoes hint at a preference for formality and professionalism.")
+    else:
+        print("Interesting choice! Your footwear tells a lot about you.")
+
+def score_for_stress_management(answer):
+    score, weight = 0, 1
+    if "exercise" in answer.lower() or "meditation" in answer.lower():
+        score, weight = randint(15, 25), 1.5  # Healthy coping mechanisms
+    elif "talk" in answer.lower():
+        score, weight = randint(10, 20), 1  # Social support as a coping mechanism
+    else:
+        score, weight = randint(5, 15), 0.5  # Neutral or unspecified methods
+    if "ignore" in answer.lower() or "substance" in answer.lower():
+        score = -5  # Unhealthy coping mechanisms reduce the score
+    return score, weight
+
 
 def simulate_random_events():
     events = [
