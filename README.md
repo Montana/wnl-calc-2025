@@ -1,4 +1,4 @@
-# WNL Calc 2025
+# WNL Calc 2025 (Wife N Life % Calculator 2025)
 Wife N' Life Returns. By Myself and Patrick Steadman!
 
 ## Updates
