@@ -1,21 +1,23 @@
 # WNL Calc 2025
-Wife N' Life Returns. By Myself and Patrick Steadman! 
+Wife N' Life Returns. By Myself and Patrick Steadman!
 
-## Updates 
+## Updates
 
-* Stress factors (how well you can handle stress)
-* Based on a 1-100% sacale
-* If over 30% you should feel confident
+- Stress factors (how well you can handle stress)
+- Based on a 1-100% scale
+- If over 30%, you should feel confident
 
 ## Usage
 
-Just like in WNL Calc 2021: 
-
-Run the following:
+Just like in [WNL Calc 2021](https://github.com/Montana/wnl-calc-2021), just run the following:
 
 ```bash
 chmod +x wnl2025.py
 python3 wnl2025.py
 ```
-> Authors Michael Mendy & Patrick Steadman
-<img width="436" alt="Screenshot 2024-02-26 at 5 54 01 PM" src="https://github.com/Montana/wnl-calc-2025/assets/20936398/18d2adcd-1634-49fa-bf2f-3f06fb998491">
+
+Then answer the questions and get your WNL %! 
+
+![image](https://github.com/Montana/wnl-calc-2025/assets/20936398/1b923782-eae9-4b56-99ae-7296ca7a93f3)
+> Author Michael Mendy & Patrick Steadman! 
+
