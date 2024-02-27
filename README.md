@@ -1,2 +1,2 @@
-# wnl-calc-2025
-Wife n Life Returns. By Myself and Patrick Steadman! 
+# WNL Calc 2025
+Wife N' Life Returns. By Myself and Patrick Steadman! 
