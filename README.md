@@ -17,5 +17,5 @@ Run the following:
 chmod +x wnl2025.py
 python3 wnl2025.py
 ```
+> Authors Michael Mendy & Patrick Steadman
 <img width="436" alt="Screenshot 2024-02-26 at 5 54 01 PM" src="https://github.com/Montana/wnl-calc-2025/assets/20936398/18d2adcd-1634-49fa-bf2f-3f06fb998491">
-> Authors: Michael Mendy & Patrick Steadman
