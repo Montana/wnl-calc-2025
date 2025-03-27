@@ -1,6 +1,6 @@
 from random import seed, randint, choice
 seed(1)
-print("""
+print(r"""
                   _   _                 _                 _                          _       
                 | | | |               | |               | |                        | |      
  __      ___ __ | | | |__  _   _   ___| |_ ___  __ _  __| |_ __ ___   ___ _ __   __| |_   _ 
@@ -115,7 +115,7 @@ def evaluate_travel_experience(answer):
         return randint(5, 15), 1
     else:
         return randint(0, 10), 0.5
-def evaluateinte_fitness_level(answer):
+def evaluate_fitness_level(answer):
     if "very" in answer.lower():
         return randint(25, 35), 2
     elif "somewhat" in answer.lower():
@@ -169,7 +169,7 @@ questions = [
     ("Do you have any pets? (Dog/Cat/None/Other):", evaluate_pet_ownership),
     ("How many close friends do you have? (Lots/Few/None):", evaluate_social_life),
     ("How often do you travel? (Often/Sometimes/Rarely/Never):", evaluate_travel_experience),
-    ("How fit are you? (Very/Somewhat/Not really):", evaluate_fitness_level),
+    ("How fit are you? (Very/Somewhat/Not really):", evaluate_fitness_level),  
     ("How’s your relationship with your family? (Great/Okay/Bad):", evaluate_family_relationships),
     ("What’s your housing situation? (Own/Rent/Live with parents):", evaluate_housing_situation),
     ("How good are you at cooking? (Great/Decent/Bad):", evaluate_cooking_skills),
